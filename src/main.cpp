@@ -63,7 +63,7 @@ int main(){
 
     delete nTest;
     
-    delete graph;
+    //delete graph;
 
 
     Tas<int, intComp> *tasTest = new Tas<int, intComp>();
@@ -119,8 +119,9 @@ int main(){
     std::cout << tasTest2->recherche(&t2) << std::endl; //true
 
     std::cout << tasTest2->recherche(&t1) << std::endl; // false
-    
-    delete tasTest2;
+
+    dijkstra<int,int>(graph);
+    delete graph;
 
     return 0;
 }
