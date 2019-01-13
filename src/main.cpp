@@ -6,15 +6,15 @@ int main(){
     
     Graph<char, int>* subject = new Graph<char,int>();
 
-    Noeud<char,int>* nodeA = new Noeud<char, int>('1');
-    Noeud<char,int>* nodeB = new Noeud<char, int>('2');
-    Noeud<char,int>* nodeC = new Noeud<char, int>('3');
-    Noeud<char,int>* nodeD = new Noeud<char, int>('4');
-    Noeud<char,int>* nodeE = new Noeud<char, int>('5');
-    Noeud<char,int>* nodeF = new Noeud<char, int>('6');
-    Noeud<char,int>* nodeG = new Noeud<char, int>('7');
-    Noeud<char,int>* nodeH = new Noeud<char, int>('8');
-    Noeud<char,int>* nodeI = new Noeud<char, int>('9');
+    Noeud<char,int>* nodeA = new Noeud<char, int>('0');
+    Noeud<char,int>* nodeB = new Noeud<char, int>('1');
+    Noeud<char,int>* nodeC = new Noeud<char, int>('2');
+    Noeud<char,int>* nodeD = new Noeud<char, int>('3');
+    Noeud<char,int>* nodeE = new Noeud<char, int>('4');
+    Noeud<char,int>* nodeF = new Noeud<char, int>('5');
+    Noeud<char,int>* nodeG = new Noeud<char, int>('6');
+    Noeud<char,int>* nodeH = new Noeud<char, int>('7');
+    Noeud<char,int>* nodeI = new Noeud<char, int>('8');
 
     subject->addNoeud(nodeA);
     subject->addNoeud(nodeB);
